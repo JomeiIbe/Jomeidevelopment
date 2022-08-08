@@ -1,0 +1,38 @@
+.build-plan {
+  position: relative;
+  padding: 5rem 1.5rem;
+  width: 100%;
+  /* background-image: linear-gradient(transparent(6deg, #3e0c3ee0, #af1fdbc9, #c52ef3da),url("../assets/advt.jpg")); */
+  /* box-shadow: inset, linear-gradient(6deg, #3e0c3ee0, #af1fdbc9, #c52ef3da); */
+  /* background: linear-gradient(-15deg,#3e0c3e,#af1fdb); */
+    background: linear-gradient(-15deg,#110211dc,#6707857a), url("../assets/advt.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* padding: 100px; */
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.build-plan-text,
+.build-plan-span{
+  font-size: 14vmin;
+  color: #fff !important;
+  font-weight: 200;
+  font-family:"Shiny Sign Demo";
+}
+/* .build-plan-span{
+  transform: rotateX(12deg);
+} */
+
+.b-plan-icon{
+  padding:  .8rem .9rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-bottom: .9rem;
+}
+
+.b-plan-text{
+  font-size: 3vmin;
+}
